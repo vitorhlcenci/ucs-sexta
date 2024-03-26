@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float a,b,area,r,radiano,angulo,seno,t;
+    float pi=3.14;
+    printf("escreva os dois valores do triânglo e o angulo \n");
+    scanf("%f\n%f\n%f",&a,&b,&angulo);
+    radiano=angulo*(M_PI/180);
+    seno=sin(radiano);
+    r=a*b*seno/2;
+    printf("\no valor da area %f",r);
+    return 0;
+}
