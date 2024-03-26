@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float a,b,c,s,t,r;
+    printf("escreva a base e a altura e o comprimentp  \n");
+    scanf("%f\n%f\n%f",&b,&a,&c);
+    s=(a+b+c)/2;
+    t=s*(s-a)*(s-b)*(s-c);
+    r=sqrt(t);
+    printf("\no valor da area %f",r);
+
+    return 0;
+}
