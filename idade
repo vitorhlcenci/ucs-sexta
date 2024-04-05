@@ -1,0 +1,16 @@
+
+int main()
+{
+    float i=0;
+    printf("digite sua idade\n");
+    scanf("%f",&i);
+    
+    if(i>=18)
+    {printf("\nvoce eh maior de idade");
+    }
+    else
+    printf("\nvoce eh menor de idade");
+    
+
+    return 0;
+}
