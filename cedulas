@@ -41,3 +41,53 @@ int main()
     
     return 0;
 }
+
+// valor, quantidade variaveis 
+//quantidade= valor /200;
+//valor=valor%200;
+//forma mais facil de fazer 
+
+
+int main()
+{
+    int valor,resto;
+    
+    printf("digite o valor pra pagar:");
+    scanf("%d",&valor);
+    
+    resto=valor/200;
+    printf("\ntem %d notas de 200",resto);
+    valor=valor%200;
+    
+    resto=valor/100;
+    printf("\ntem %d notas de 100 ",resto);
+    valor=valor%100;
+    
+    resto=valor/50;
+    printf("\ntem %d notas de 50 ",resto);
+    valor=valor%50;
+    
+    resto=valor/20;
+    printf("\ntem %d notas de 20 ",resto);
+    valor=valor%20;
+    
+    resto=valor/10;
+    printf("\ntem %d notas de 10 ",resto);
+    valor=valor%10;
+    
+    resto=valor/5;
+    printf("\ntem %d notas de 5 ",resto);
+    valor=valor%5;
+    
+    resto=valor/2;
+    printf("\ntem %d notas de 2 ",resto);
+    valor=valor%2;
+    
+    resto=valor/1;
+    printf("\ntem %d moedas de 1 ",resto);
+    
+    
+    
+    return 0;
+}
+
