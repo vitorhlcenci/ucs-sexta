@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+    int valor,duz,cem,cin,vin,dez,cico,dois,um;
+    int r1,r2,r3,r4,r5,r6,r7;
+    printf("digite o valor pra pagar:");
+    scanf("%d",&valor);
+    duz=valor/200;
+    printf("\ntem %d notas de 200",duz);
+    r1=valor%200;
+    
+    cem=r1/100;
+    printf("\ntem %d notas de 100 ",cem);
+    r2=r1%100;
+    
+    cin=r2/50;
+    printf("\ntem %d notas de 50 ",cin);
+    r3=r2%50;
+    
+    vin=r3/20;
+    printf("\ntem %d notas de 20 ",vin);
+    r4=r3%20;
+    
+    dez=r4/10;
+    printf("\ntem %d notas de 10 ",dez);
+    r5=r4%10;
+    
+    cico=r5/5;
+    printf("\ntem %d notas de 5 ",cico);
+    r6=r5%5;
+    
+    dois=r6/2;
+    printf("\ntem %d notas de 2 ",dois);
+    r7=r6%2;
+    
+    um=r7/1;
+    printf("\ntem %d moedas de 1 ",um);
+    
+    
+    
+    return 0;
+}
