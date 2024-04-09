@@ -1,1 +1,30 @@
+int main()
+{
+    int a;
+     
+    printf("digite um numero inteiro\n");
+    scanf("%d",&a);
+    
 
+  
+    if(a>=5 && a<=7) {
+       printf("voce esta na classe Infantil A");   
+    }   
+    else if(a>=8 && a<=10){
+     
+       printf("voce esta na classe infaltil B");
+       }
+   else if(a>=11 && a<=13){
+     
+       printf("voce esta na classe juvenil a");
+   }   
+        else if(a>=14 && a<=17){
+     
+       printf("voce esta na classe juvenilB");
+        }
+         else if(a>=18){
+     
+       printf("voce esta na classe senior");
+         }
+    return 0;
+}
