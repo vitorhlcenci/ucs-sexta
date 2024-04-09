@@ -1,0 +1,19 @@
+int main()
+{
+    int a,b ;
+     
+    printf("digite um numero inteiro\n");
+    scanf("%d %d",&a,&b);
+    
+
+  
+    if(a%b==0 || b%a==0) {
+    printf("os números são multiplos");   
+    }     
+    else {
+       printf("os números não são mulriplos");
+    }
+
+    
+    return 0;
+}
