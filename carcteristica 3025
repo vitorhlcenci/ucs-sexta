@@ -1,0 +1,26 @@
+int main()
+{
+   int nu,a,b,r,r2;
+   printf("digite um valo de 4 digitos\n");
+   scanf("%d",&nu);
+   if(nu >= 1000 && nu <= 9999){
+        a=nu/100;
+        b=nu%100;
+        r=a+b;
+        r2=r*r;
+        if(r2==nu){
+            printf("o numero tem essa carcateristica");
+        }
+        else{
+            printf("o numero não tem essa carcateristica");
+        }
+        
+       
+   }
+   else {
+       printf("o numero não tem 4 carcteres");
+   }
+   
+   
+    return 0;
+}
