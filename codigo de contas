@@ -1,0 +1,34 @@
+
+int main()
+{
+    int a,b,c,v,r;
+    printf("digite o codigo de 1 a 4\n");
+    scanf("%d",&v);
+    if (v>=1 && v<=4){
+    printf("digite os três valores\n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(v==1){
+        r=a*b*c;
+        printf("o resultado é %d",r);
+    }
+    else if (v==2){
+        r=a+b+c;
+        printf("o resultado é m %d",r);
+    }
+    else if (v==3){
+        r=a-b-c;
+        printf("o resultado é e %d",r);
+    }
+    else if (v==4) {
+        r=(a*a*a)+(b*b*b)+(c*c*c);
+        printf("o valor é %d",r);
+    }
+    }
+    else {
+        printf("o codigo não existe");
+    }
+
+    return 0;
+}
+
